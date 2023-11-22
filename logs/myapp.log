@@ -1,0 +1,39 @@
+2023-11-22T10:42:06.802-03:00  INFO 328 --- [restartedMain] .C.G.I.ApiCalculoGradoImpactoApplication : Starting ApiCalculoGradoImpactoApplication using Java 17.0.6 with PID 328 (C:\Users\lucia\Documentos\Univ\APICalculoGradoImpacto\target\classes started by lucia in C:\Users\lucia\Documentos\Univ\APICalculoGradoImpacto)
+2023-11-22T10:42:06.808-03:00  INFO 328 --- [restartedMain] .C.G.I.ApiCalculoGradoImpactoApplication : No active profile set, falling back to 1 default profile: "default"
+2023-11-22T10:42:06.856-03:00  INFO 328 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-22T10:42:06.857-03:00  INFO 328 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-22T10:42:07.911-03:00  INFO 328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 52911 (http)
+2023-11-22T10:42:07.921-03:00  INFO 328 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-22T10:42:07.921-03:00  INFO 328 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-11-22T10:42:07.979-03:00  INFO 328 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-22T10:42:07.980-03:00  INFO 328 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1123 ms
+2023-11-22T10:42:08.269-03:00  INFO 328 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-22T10:42:08.296-03:00  INFO 328 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 52911 (http) with context path ''
+2023-11-22T10:42:08.302-03:00  INFO 328 --- [restartedMain] .C.G.I.ApiCalculoGradoImpactoApplication : Started ApiCalculoGradoImpactoApplication in 1.906 seconds (process running for 2.679)
+2023-11-22T10:44:30.300-03:00  INFO 328 --- [http-nio-52911-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-22T10:44:30.300-03:00  INFO 328 --- [http-nio-52911-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-22T10:44:30.301-03:00  INFO 328 --- [http-nio-52911-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-11-22T16:21:45.173-03:00  INFO 1612 --- [restartedMain] .C.G.I.ApiCalculoGradoImpactoApplication : Starting ApiCalculoGradoImpactoApplication using Java 17.0.6 with PID 1612 (C:\Users\lucia\Documentos\Univ\APICalculoGradoImpacto\target\classes started by lucia in C:\Users\lucia\Documentos\Univ\APICalculoGradoImpacto)
+2023-11-22T16:21:45.179-03:00  INFO 1612 --- [restartedMain] .C.G.I.ApiCalculoGradoImpactoApplication : No active profile set, falling back to 1 default profile: "default"
+2023-11-22T16:21:45.256-03:00  INFO 1612 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-22T16:21:45.256-03:00  INFO 1612 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-22T16:21:49.069-03:00  INFO 1612 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 52911 (http)
+2023-11-22T16:21:49.088-03:00  INFO 1612 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-22T16:21:49.088-03:00  INFO 1612 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-11-22T16:21:49.282-03:00  INFO 1612 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-22T16:21:49.283-03:00  INFO 1612 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4025 ms
+2023-11-22T16:21:49.993-03:00  INFO 1612 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-22T16:21:50.051-03:00  INFO 1612 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 52911 (http) with context path ''
+2023-11-22T16:21:50.065-03:00  INFO 1612 --- [restartedMain] .C.G.I.ApiCalculoGradoImpactoApplication : Started ApiCalculoGradoImpactoApplication in 6.714 seconds (process running for 7.666)
+2023-11-22T17:34:45.726-03:00  INFO 13584 --- [restartedMain] .C.G.I.ApiCalculoGradoImpactoApplication : Starting ApiCalculoGradoImpactoApplication using Java 17.0.6 with PID 13584 (C:\Users\lucia\Documentos\Univ\APICalculoGradoImpacto\target\classes started by lucia in C:\Users\lucia\Documentos\Univ\APICalculoGradoImpacto)
+2023-11-22T17:34:45.729-03:00  INFO 13584 --- [restartedMain] .C.G.I.ApiCalculoGradoImpactoApplication : No active profile set, falling back to 1 default profile: "default"
+2023-11-22T17:34:45.793-03:00  INFO 13584 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-22T17:34:45.793-03:00  INFO 13584 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-22T17:34:46.909-03:00  INFO 13584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 52911 (http)
+2023-11-22T17:34:46.916-03:00  INFO 13584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-22T17:34:46.916-03:00  INFO 13584 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-11-22T17:34:46.972-03:00  INFO 13584 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-22T17:34:46.972-03:00  INFO 13584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1178 ms
+2023-11-22T17:34:47.248-03:00  INFO 13584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-22T17:34:47.271-03:00  INFO 13584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 52911 (http) with context path ''
+2023-11-22T17:34:47.279-03:00  INFO 13584 --- [restartedMain] .C.G.I.ApiCalculoGradoImpactoApplication : Started ApiCalculoGradoImpactoApplication in 2.022 seconds (process running for 2.817)
