@@ -26,6 +26,11 @@
 					<descriptorRefs>
 						<descriptorRef>jar-with-dependencies</descriptorRef>
 					</descriptorRefs>
+					<archive>
+						<manifest>
+							<mainClass>com.grupo15.API.Calculo.Grado.Impacto.ApiCalculoGradoImpactoApplication</mainClass>
+						</manifest>
+					</archive>
 				</configuration>
 				<executions>
 					<execution>
