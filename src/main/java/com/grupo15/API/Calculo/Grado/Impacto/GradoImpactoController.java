@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import java.time.temporal.ChronoUnit;
 import java.util.List;
 
 
@@ -16,7 +15,7 @@ public class GradoImpactoController {
     private int resultado;
 
     @GetMapping("/calcularImpacto")
-    public List<EntidadValor> calculateImpactGet() {
+    public List<Resultado> calculateImpactGet() {
         return RepositorioResultados.getInstance().obtenerTodosLosResultadosOrdenados();
     }
 
@@ -27,7 +26,7 @@ public class GradoImpactoController {
                     valoresFormula.cantIncidentesNoResueltos,
                     valoresFormula.cnf,
                     valoresFormula.totalPersonasImpactadas);
-            RepositorioResultados.getInstance().guardarResultado(new EntidadValor(valoresFormula.entidad_id, gradoImpacto));
+            RepositorioResultados.getInstance().guardarResultado(new Resultado(valoresFormula.entidad_id, gradoImpacto));
         }
 
         return ResponseEntity.ok("Valores de entidades recibidos correctamente.");
