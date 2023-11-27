@@ -13,4 +13,4 @@ FROM openjdk:17-jdk-slim
 COPY --from=build /target/API-Calculo-Grado-Impacto-0.0.1-SNAPSHOT.jar servicioAPI.jar
 # ENV PORT=8080
 EXPOSE 8080
-ENTRYPOINT ["java","-classpath","servicioAPI.jar","com.grupo15.API.Calculo.Grado.Impacto.ApiCalculoGradoImpactoApplication"]
+ENTRYPOINT ["java","-jar","servicioAPI.jar"]
